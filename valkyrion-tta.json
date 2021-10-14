@@ -1,0 +1,1628 @@
+{
+  "gmSettings": {
+    "default": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "hp",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-structure",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "heat",
+              "icon": "cci cci-heat",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-reactor",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "mm.Evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.Armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.EDefense",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Speed",
+              "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#cc0a0a"
+            },
+            {
+              "value": "mm.SensorRange",
+              "icon": "cci cci-sensor",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.SaveTarget",
+              "icon": "cci cci-save",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "hp",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-structure",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "heat",
+              "icon": "cci cci-heat",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-reactor",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "mm.Evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.Armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.EDefense",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Speed",
+              "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#cc0a0a"
+            },
+            {
+              "value": "mm.SensorRange",
+              "icon": "cci cci-sensor",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.SaveTarget",
+              "icon": "cci cci-save",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "hp",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-structure",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "heat",
+              "icon": "cci cci-heat",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-reactor",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "mm.Evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.Armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.EDefense",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Speed",
+              "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#cc0a0a"
+            },
+            {
+              "value": "mm.SensorRange",
+              "icon": "cci cci-sensor",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.SaveTarget",
+              "icon": "cci cci-save",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": false,
+        "useAccentEverywhere": false,
+        "accentColor": "#c22929",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "pilot": {
+        "items": [
+            {
+              "disposition": "FRIENDLY",
+              "items": [
+                {
+                  "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+                  "icon": "mdi mdi-heart-outline",
+                  "isFunction": true,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "armor",
+                  "icon": "mdi mdi-shield-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "evasion",
+                  "icon": "cci cci-evasion",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "edef",
+                  "icon": "cci cci-edef",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#ff7b00"
+                },
+                {
+                  "value": "overshield.value",
+                  "icon": "mdi mdi-shield-star-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#9f6bff"
+                },
+                {
+                  "value": "mm.Burn",
+                  "icon": "cci cci-burn",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#d74242"
+                }
+              ]
+            },
+            {
+              "disposition": "NEUTRAL",
+              "items": [
+                {
+                  "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+                  "icon": "mdi mdi-heart-outline",
+                  "isFunction": true,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "armor",
+                  "icon": "mdi mdi-shield-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "evasion",
+                  "icon": "cci cci-evasion",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "edef",
+                  "icon": "cci cci-edef",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#ff7b00"
+                },
+                {
+                  "value": "overshield.value",
+                  "icon": "mdi mdi-shield-star-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#9f6bff"
+                },
+                {
+                  "value": "mm.Burn",
+                  "icon": "cci cci-burn",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#d74242"
+                }
+              ]
+            },
+            {
+              "disposition": "HOSTILE",
+              "items": [
+                {
+                  "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+                  "icon": "mdi mdi-heart-outline",
+                  "isFunction": true,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "armor",
+                  "icon": "mdi mdi-shield-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "evasion",
+                  "icon": "cci cci-evasion",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "edef",
+                  "icon": "cci cci-edef",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#ff7b00"
+                },
+                {
+                  "value": "overshield.value",
+                  "icon": "mdi mdi-shield-star-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#9f6bff"
+                },
+                {
+                  "value": "mm.Burn",
+                  "icon": "cci cci-burn",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#d74242"
+                }
+              ]
+            }
+          ],
+      "static": {
+        "displayNameInTooltip": false,
+        "accentColor": "#c22929",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "npc": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#afb64d",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "deployable": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "edef",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "edef",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "edef",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": false,
+        "useAccentEverywhere": false,
+        "accentColor": "#c22929",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "mech": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#751dfb",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    }
+  },
+  "playerSettings": {
+    "default": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": [
+            {
+              "value": "hp",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-structure",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "heat",
+              "icon": "cci cci-heat",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-reactor",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "mm.Evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.Armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.EDefense",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Speed",
+              "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#cc0a0a"
+            },
+            {
+              "value": "mm.SensorRange",
+              "icon": "cci cci-sensor",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.SaveTarget",
+              "icon": "cci cci-save",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "hp",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-structure",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "heat",
+              "icon": "cci cci-heat",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-reactor",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "mm.Evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.Armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.EDefense",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Speed",
+              "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#cc0a0a"
+            },
+            {
+              "value": "mm.SensorRange",
+              "icon": "cci cci-sensor",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.SaveTarget",
+              "icon": "cci cci-save",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "hp",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-structure",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "heat",
+              "icon": "cci cci-heat",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-reactor",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "icon": "",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "mm.Evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.Armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "mm.EDefense",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Speed",
+              "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#cc0a0a"
+            },
+            {
+              "value": "mm.SensorRange",
+              "icon": "cci cci-sensor",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.SaveTarget",
+              "icon": "cci cci-save",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#bababa"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-structure",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
+              "icon": "cci cci-reactor",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NONE",
+        "useAccentEverywhere": false,
+        "accentColor": "#c22929",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "pilot": {
+        "items": [
+            {
+              "disposition": "OWNED",
+              "items": [
+                {
+                  "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+                  "icon": "mdi mdi-heart-outline",
+                  "isFunction": true,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "armor",
+                  "icon": "mdi mdi-shield-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "evasion",
+                  "icon": "cci cci-evasion",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "edef",
+                  "icon": "cci cci-edef",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#ff7b00"
+                },
+                {
+                  "value": "overshield.value",
+                  "icon": "mdi mdi-shield-star-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#9f6bff"
+                },
+                {
+                  "value": "mm.Burn",
+                  "icon": "cci cci-burn",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#d74242"
+                }
+              ]
+            },
+            {
+              "disposition": "FRIENDLY",
+              "items": [
+                {
+                  "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+                  "icon": "mdi mdi-heart-outline",
+                  "isFunction": true,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "armor",
+                  "icon": "mdi mdi-shield-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "evasion",
+                  "icon": "cci cci-evasion",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "edef",
+                  "icon": "cci cci-edef",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#ff7b00"
+                },
+                {
+                  "value": "overshield.value",
+                  "icon": "mdi mdi-shield-star-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#9f6bff"
+                },
+                {
+                  "value": "mm.Burn",
+                  "icon": "cci cci-burn",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#d74242"
+                }
+              ]
+            },
+            {
+              "disposition": "NEUTRAL",
+              "items": [
+                {
+                  "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+                  "icon": "mdi mdi-heart-outline",
+                  "isFunction": true,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "armor",
+                  "icon": "mdi mdi-shield-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "evasion",
+                  "icon": "cci cci-evasion",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#8fe03e"
+                },
+                {
+                  "value": "edef",
+                  "icon": "cci cci-edef",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#ff7b00"
+                },
+                {
+                  "value": "overshield.value",
+                  "icon": "mdi mdi-shield-star-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#9f6bff"
+                },
+                {
+                  "value": "mm.Burn",
+                  "icon": "cci cci-burn",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#d74242"
+                }
+              ]
+            },
+            {
+              "disposition": "HOSTILE",
+              "items": [
+                {
+                  "value": "overshield.value",
+                  "icon": "mdi mdi-shield-star-outline",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#9f6bff"
+                },
+                {
+                  "value": "mm.Burn",
+                  "icon": "cci cci-burn",
+                  "isFunction": false,
+                  "expression": false,
+                  "isNumber": false,
+                  "color": "#d74242"
+                }
+              ]
+            }
+          ],
+      "static": {
+        "displayNameInTooltip": "NONE",
+        "accentColor": "#c22929",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "npc": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#4a56af",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "deployable": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": [
+            {
+              "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "edef",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "edef",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "tooltip._maxRows = 3;\nreturn data.hp;",
+              "icon": "mdi mdi-heart-outline",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "armor",
+              "icon": "mdi mdi-shield-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "evasion",
+              "icon": "cci cci-evasion",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#8fe03e"
+            },
+            {
+              "value": "edef",
+              "icon": "cci cci-edef",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ff7b00"
+            },
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "overshield.value",
+              "icon": "mdi mdi-shield-star-outline",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9f6bff"
+            },
+            {
+              "value": "mm.Burn",
+              "icon": "cci cci-burn",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d74242"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NONE",
+        "useAccentEverywhere": false,
+        "accentColor": "#c22929",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "mech": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#44fc4f",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    }
+  }
+}
