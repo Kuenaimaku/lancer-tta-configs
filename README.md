@@ -2,10 +2,11 @@
 
 This repo was created to store [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt) configurations for the [Foundry VTT Lancer System](https://foundryvtt.com/packages/lancer).
 
-In order to use these config options, make sure to open the tooltip manager in the module's settings, and enable custom tooltips for every option, and then import one of the json files in this repo.
+In order to use these config options, make sure to open the tooltip manager in the module's settings, and then import one of the json files in this repo.
 
 ![Token Tooltip Alt json Import Example](jsonImport.png)
 
+Following that, there may be extra configuration for each config - the TTA settings are held below.
 
 ## Bolts TTA Config
 
