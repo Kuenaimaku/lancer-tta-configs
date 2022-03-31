@@ -24,8 +24,24 @@ Following that, there may be extra configuration for each config - the TTA setti
 
 ![Eranziel TTA Preview](eranziel-preview.png)
 
+## KuroKitten TTA Config
+
+- File: `kurokitten-tta.json`
+- Actor Data: `actor.data.data.derived`
+- Max Rows: `4`
+- Custom:
+  - Pilot
+  - Mech
+  - NPC
+  - Deployable
+
+![KuroKitten TTA Preview](kurokitten-preview.png)
+
 ## Valkyrion TTA Config
 
 - File: `valkyrion-tta.json`
 - Actor Data: `actor.data.data.derived`
 - Max Rows: `4`
+- Custom:
+  - Pilot
+  - Deployable
