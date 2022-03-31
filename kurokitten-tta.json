@@ -714,14 +714,6 @@
                             "color": "#ffc800"
                         },
                         {
-                            "value": "if (data.mm._templates.length >= 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
-                            "icon": "",
-                            "isFunction": true,
-                            "expression": false,
-                            "isNumber": false,
-                            "color": "#1d0f25"
-                        },
-                        {
                             "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
                             "icon": "",
                             "isFunction": true,
@@ -903,14 +895,6 @@
                             "color": "#ffc800"
                         },
                         {
-                            "value": "if (data.mm._templates.length >= 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
-                            "icon": "",
-                            "isFunction": true,
-                            "expression": false,
-                            "isNumber": false,
-                            "color": "#1d0f25"
-                        },
-                        {
                             "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
                             "icon": "",
                             "isFunction": true,
@@ -1090,14 +1074,6 @@
                             "expression": false,
                             "isNumber": false,
                             "color": "#ffc800"
-                        },
-                        {
-                            "value": "if (data.mm._templates.length >= 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
-                            "icon": "",
-                            "isFunction": true,
-                            "expression": false,
-                            "isNumber": false,
-                            "color": "#1d0f25"
                         },
                         {
                             "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
@@ -2774,14 +2750,6 @@
                             "color": "#ffc800"
                         },
                         {
-                            "value": "if (data.mm._templates.length >= 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
-                            "icon": "",
-                            "isFunction": true,
-                            "expression": false,
-                            "isNumber": false,
-                            "color": "#1d0f25"
-                        },
-                        {
                             "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
                             "icon": "",
                             "isFunction": true,
@@ -2961,14 +2929,6 @@
                             "expression": false,
                             "isNumber": false,
                             "color": "#ffc800"
-                        },
-                        {
-                            "value": "if (data.mm._templates.length >= 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
-                            "icon": "",
-                            "isFunction": true,
-                            "expression": false,
-                            "isNumber": false,
-                            "color": "#1d0f25"
                         },
                         {
                             "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
@@ -3323,14 +3283,6 @@
                             "expression": false,
                             "isNumber": false,
                             "color": "#ffc800"
-                        },
-                        {
-                            "value": "if (data.mm._templates.length >= 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
-                            "icon": "",
-                            "isFunction": true,
-                            "expression": false,
-                            "isNumber": false,
-                            "color": "#1d0f25"
                         },
                         {
                             "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
