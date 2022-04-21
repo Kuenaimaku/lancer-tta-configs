@@ -29,19 +29,38 @@ Following that, there may be extra configuration for each config - the TTA setti
 - File: `kurokitten-tta.json`
 - Actor Data: `actor.data.data.derived`
 - Max Rows: `4`
-- Custom:
-  - Pilot
-  - Mech
-  - NPC
-  - Deployable
+- Tooltip Manager:
+  - Custom:
+    - [x] Pilot
+    - [x] Mech
+    - [x] NPC
+    - [x] Deployable
 
 ![KuroKitten TTA Preview](kurokitten-preview.png)
 
-## Valkyrion TTA Config
-
-- File: `valkyrion-tta.json`
+## Valkyrion
+### TTA Config 1
+Variant of Eranziel's.
+- File: `valkyrion-tta-1.json`
 - Actor Data: `actor.data.data.derived`
 - Max Rows: `4`
-- Custom:
-  - Pilot
-  - Deployable
+- Tooltip Manager:
+  - Custom:
+    - [x] Pilot
+    - [ ] Mech
+    - [ ] NPC
+    - [x] Deployable
+
+### TTA Config 2
+Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Callsign for friendly mechs.  Allows token name to accommodate longer Mech names instead of just the pilot Callsign.  Works best with token display names never displayed.
+- File: `valkyrion-tta-2.json`
+- Actor Data: `actor.data.data.derived`
+- Max Rows: `4`
+- Tooltip Manager:
+  - Custom:
+    - [x] Pilot
+    - [x] Mech
+    - [x] NPC
+    - [x] Deployable
+
+![Valkyrion TTA 2 Preview](valkyrion-2-preview.png)
