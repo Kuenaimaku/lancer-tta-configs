@@ -19,8 +19,11 @@ Following that, there may be extra configuration for each config - the TTA setti
 ## Eranziel TTA Config
 
 - File: `eranziel-tta.json`
-- Actor Data: `actor.data.data.derived`
+- Actor Data: `actor.system`
 - Max Rows: `4`
+- Tooltip Manager:
+  - Custom:
+    - [x] Deployable
 
 ![Eranziel TTA Preview](eranziel-preview.png)
 
