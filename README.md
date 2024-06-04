@@ -41,6 +41,20 @@ Following that, there may be extra configuration for each config - the TTA setti
 
 ![KuroKitten TTA Preview](kurokitten-preview.png)
 
+## Sarah TTA Config
+Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hostile, neutral, and friendly NPCs. Auto-capitalizes class and template names. Does not include config for pilots, player mechs, or deployables.
+- File: `sarah-tta.json`
+- Actor Data: `actor.data.data.derived`
+- Max Rows: `5`
+- Tooltip Manager:
+  - Custom:
+   - [ ] Pilot
+   - [ ] Mech
+   - [x] NPC
+   - [ ] Deployable
+
+![Sarah TTA Preview](sarah-preview.png)
+
 ## Valkyrion
 ### TTA Config 1
 Variant of Eranziel's.
