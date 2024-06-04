@@ -2,6 +2,8 @@
 
 This repo was created to store [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt) configurations for the [Foundry VTT Lancer System](https://foundryvtt.com/packages/lancer).
 
+Install from [this fork](https://github.com/msprijatelj/token-tooltip-alt/releases/latest/download/module.zip) for compatibility with Foundry v11.
+
 In order to use these config options, make sure to open the tooltip manager in the module's settings, and then import one of the json files in this repo.
 
 ![Token Tooltip Alt json Import Example](jsonImport.png)
@@ -56,22 +58,10 @@ Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hosti
 ![Sarah TTA Preview](sarah-preview.png)
 
 ## Valkyrion
-### TTA Config 1
-Variant of Eranziel's.
-- File: `valkyrion-tta-1.json`
-- Actor Data: `actor.data.data.derived`
-- Max Rows: `4`
-- Tooltip Manager:
-  - Custom:
-    - [x] Pilot
-    - [ ] Mech
-    - [ ] NPC
-    - [x] Deployable
-
-### TTA Config 2
+### TTA Config
 Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Callsign for friendly mechs.  Allows token name to accommodate longer Mech names instead of just the pilot Callsign.  Works best with token display names never displayed.
-- File: `valkyrion-tta-2.json`
-- Actor Data: `actor.data.data.derived`
+- File: `valkyrion-tta.json`
+- Actor Data: `actor`
 - Max Rows: `4`
 - Tooltip Manager:
   - Custom:
@@ -80,4 +70,4 @@ Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Ca
     - [x] NPC
     - [x] Deployable
 
-![Valkyrion TTA 2 Preview](valkyrion-2-preview.png)
+![Valkyrion TTA Preview](valkyrion-preview.png)

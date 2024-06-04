@@ -22,7 +22,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -30,7 +30,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -54,7 +54,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -62,7 +62,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -70,7 +70,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -78,7 +78,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -86,7 +86,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -94,7 +94,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -102,7 +102,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -110,7 +110,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -118,7 +118,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -126,7 +126,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -134,7 +134,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -142,7 +142,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -171,7 +171,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -179,7 +179,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -203,7 +203,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -211,7 +211,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -219,7 +219,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -227,7 +227,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -235,7 +235,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -243,7 +243,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -251,7 +251,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -259,7 +259,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -267,7 +267,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -275,7 +275,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -283,7 +283,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -291,7 +291,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -320,7 +320,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -328,7 +328,7 @@
               "color": "#ff2828"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -352,7 +352,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -360,7 +360,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -368,7 +368,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -376,7 +376,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -384,7 +384,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -392,7 +392,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -400,7 +400,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -408,7 +408,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -416,7 +416,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -424,7 +424,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -432,7 +432,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -440,7 +440,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -448,6 +448,10 @@
               "color": "#ff6432"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
@@ -457,7 +461,8 @@
         "tokenDispositions": [
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
       }
@@ -468,7 +473,7 @@
           "disposition": "FRIENDLY",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -476,7 +481,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -484,7 +489,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -492,7 +497,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -500,7 +505,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -508,7 +513,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -516,7 +521,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -529,7 +534,7 @@
           "disposition": "NEUTRAL",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -537,7 +542,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -545,7 +550,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -553,7 +558,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -561,7 +566,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -569,7 +574,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -577,7 +582,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -590,7 +595,7 @@
           "disposition": "HOSTILE",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -598,7 +603,7 @@
               "color": "#ff2828"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -606,7 +611,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -614,7 +619,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -622,7 +627,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -630,7 +635,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -638,7 +643,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -646,6 +651,10 @@
               "color": "#ff6432"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
@@ -655,7 +664,8 @@
         "tokenDispositions": [
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
       }
@@ -666,7 +676,7 @@
           "disposition": "FRIENDLY",
           "items": [
             {
-              "value": "return data.mm._classes[0].Name;",
+              "value": "return data.system.class.name;",
               "icon": "cci cci-npc-class",
               "isFunction": true,
               "expression": false,
@@ -674,7 +684,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -682,7 +692,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -690,7 +700,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -698,7 +708,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -706,7 +716,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -714,7 +724,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 2 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -722,7 +732,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn data.mm._templates[2].Name;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name;\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -730,7 +740,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn \"\";\n} else if (data.stress.max > 1 || data.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn \"\";\n} else if (data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -738,7 +748,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -746,7 +756,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -754,7 +764,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -762,7 +772,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -770,7 +780,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -778,7 +788,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -786,7 +796,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -794,7 +804,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -802,7 +812,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -810,7 +820,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -818,7 +828,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -826,7 +836,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -834,7 +844,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -847,7 +857,7 @@
           "disposition": "NEUTRAL",
           "items": [
             {
-              "value": "return data.mm._classes[0].Name;",
+              "value": "return data.system.class.name;",
               "icon": "cci cci-npc-class",
               "isFunction": true,
               "expression": false,
@@ -855,7 +865,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -863,7 +873,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -871,7 +881,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -879,7 +889,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -887,7 +897,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -895,7 +905,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 2 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -903,7 +913,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn data.mm._templates[2].Name;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name;\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -911,7 +921,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn \"\";\n} else if (data.stress.max > 1 || data.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn \"\";\n} else if (data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -919,7 +929,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -927,7 +937,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -935,7 +945,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -943,7 +953,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -951,7 +961,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -959,7 +969,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -967,7 +977,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -975,7 +985,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -983,7 +993,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -991,7 +1001,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -999,7 +1009,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -1007,7 +1017,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -1015,7 +1025,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -1028,7 +1038,7 @@
           "disposition": "HOSTILE",
           "items": [
             {
-              "value": "return data.mm._classes[0].Name;",
+              "value": "return data.system.class.name;",
               "icon": "cci cci-npc-class",
               "isFunction": true,
               "expression": false,
@@ -1036,7 +1046,7 @@
               "color": "#ff0000"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -1044,7 +1054,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -1052,7 +1062,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -1060,7 +1070,7 @@
               "color": "#ff2828"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -1068,7 +1078,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -1076,7 +1086,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 2 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1084,7 +1094,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn data.mm._templates[2].Name;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name;\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -1092,7 +1102,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn \"\";\n} else if (data.stress.max > 1 || data.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn \"\";\n} else if (data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -1100,7 +1110,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1108,7 +1118,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -1116,7 +1126,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -1124,7 +1134,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1132,7 +1142,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1140,7 +1150,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -1148,7 +1158,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -1156,7 +1166,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -1164,7 +1174,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -1172,7 +1182,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -1180,7 +1190,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -1188,7 +1198,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -1196,7 +1206,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -1204,6 +1214,10 @@
               "color": "#ff6432"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
@@ -1213,7 +1227,8 @@
         "tokenDispositions": [
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
       }
@@ -1224,7 +1239,7 @@
           "disposition": "FRIENDLY",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -1232,7 +1247,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -1240,7 +1255,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "if (data.overshield.value > 0) {\n\treturn data.overshield.value;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.overshield.value > 0) {\n\treturn data.system.overshield.value;\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": true,
               "expression": false,
@@ -1248,7 +1263,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "if (data.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1264,7 +1279,7 @@
               "color": "#ffffff"
             },
             {
-              "value": "if (data.mm.Burn > 0) {\n\treturn data.mm.Burn;\n}\nreturn \"\";",
+              "value": "if (data.system.burn > 0) {\n\treturn data.system.burn;\n}\nreturn \"\";",
               "icon": "cci cci-burn",
               "isFunction": true,
               "expression": false,
@@ -1272,7 +1287,7 @@
               "color": "#ff6432"
             },
             {
-              "value": "if (data.mm.Burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1280,7 +1295,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -1288,7 +1303,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -1301,7 +1316,7 @@
           "disposition": "NEUTRAL",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -1309,7 +1324,7 @@
               "color": "#bfbfbf"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -1317,7 +1332,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "if (data.overshield.value > 0) {\n\treturn data.overshield.value;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.overshield.value > 0) {\n\treturn data.system.overshield.value;\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": true,
               "expression": false,
@@ -1325,7 +1340,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "if (data.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1333,7 +1348,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm.Burn > 0) {\n\treturn data.mm.Burn;\n}\nreturn \"\";",
+              "value": "if (data.system.burn > 0) {\n\treturn data.system.burn;\n}\nreturn \"\";",
               "icon": "cci cci-burn",
               "isFunction": true,
               "expression": false,
@@ -1341,7 +1356,7 @@
               "color": "#ff6432"
             },
             {
-              "value": "if (data.mm.Burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1349,7 +1364,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -1357,7 +1372,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -1370,7 +1385,7 @@
           "disposition": "HOSTILE",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -1378,7 +1393,7 @@
               "color": "#bfbfbf"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -1386,7 +1401,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "if (data.overshield.value > 0) {\n\treturn data.overshield.value;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.overshield.value > 0) {\n\treturn data.system.overshield.value;\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": true,
               "expression": false,
@@ -1394,7 +1409,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "if (data.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1402,7 +1417,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm.Burn > 0) {\n\treturn data.mm.Burn;\n}\nreturn \"\";",
+              "value": "if (data.system.burn > 0) {\n\treturn data.system.burn;\n}\nreturn \"\";",
               "icon": "cci cci-burn",
               "isFunction": true,
               "expression": false,
@@ -1410,7 +1425,7 @@
               "color": "#ff6432"
             },
             {
-              "value": "if (data.mm.Burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1418,7 +1433,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -1426,7 +1441,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -1434,6 +1449,10 @@
               "color": "#29e08b"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
@@ -1443,7 +1462,8 @@
         "tokenDispositions": [
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
       }
@@ -1454,7 +1474,7 @@
           "disposition": "FRIENDLY",
           "items": [
             {
-              "value": "return data.mm.Loadout.Frame.Name || \" \";",
+              "value": "return data.system.loadout.frame.value.name || \" \";",
               "icon": "cci cci-frame",
               "isFunction": true,
               "expression": false,
@@ -1462,7 +1482,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "return data.mm.Pilot.Callsign || \" \";",
+              "value": "return data.system.pilot.value.system.callsign || \" \";",
               "icon": "cci cci-pilot",
               "isFunction": true,
               "expression": false,
@@ -1470,7 +1490,7 @@
               "color": "#ffb400"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -1478,7 +1498,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -1486,7 +1506,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.mm.CurrentCoreEnergy) {\n\treturn \"\";\n} else {\n\treturn \"CORE\";\n}",
+              "value": "if (data.system.core_energy) {\n\treturn \"\";\n} else {\n\treturn \"CORE\";\n}",
               "icon": "mdi mdi-battery-10",
               "isFunction": true,
               "expression": false,
@@ -1494,7 +1514,7 @@
               "color": "#999999"
             },
             {
-              "value": "if (data.mm.CurrentCoreEnergy) {\n\treturn \"CORE\";\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.core_energy) {\n\treturn \"CORE\";\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-battery",
               "isFunction": true,
               "expression": false,
@@ -1510,7 +1530,7 @@
               "color": "#c60101"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -1518,7 +1538,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1526,7 +1546,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -1534,7 +1554,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1542,7 +1562,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -1550,7 +1570,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -1558,7 +1578,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -1566,7 +1586,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -1574,7 +1594,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -1582,7 +1602,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -1590,7 +1610,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -1598,7 +1618,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -1611,7 +1631,7 @@
           "disposition": "NEUTRAL",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -1619,7 +1639,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -1643,7 +1663,7 @@
               "color": "#ffffff"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -1651,7 +1671,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1659,7 +1679,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -1683,7 +1703,7 @@
               "color": "#ffffff"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1691,7 +1711,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -1699,7 +1719,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -1707,7 +1727,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -1715,7 +1735,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -1723,7 +1743,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -1731,7 +1751,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -1739,7 +1759,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -1747,7 +1767,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -1760,7 +1780,7 @@
           "disposition": "HOSTILE",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -1768,7 +1788,7 @@
               "color": "#ff2828"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -1792,7 +1812,7 @@
               "color": "#ffffff"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -1800,7 +1820,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1808,7 +1828,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -1832,7 +1852,7 @@
               "color": "#ffffff"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1840,7 +1860,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -1848,7 +1868,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -1856,7 +1876,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -1864,7 +1884,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -1872,7 +1892,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -1880,7 +1900,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -1888,7 +1908,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -1896,7 +1916,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -1904,6 +1924,10 @@
               "color": "#ff6432"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
@@ -1913,9 +1937,41 @@
         "tokenDispositions": [
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
+      }
+    },
+    "base": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#db29be",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ]
       }
     }
   },
@@ -1942,7 +1998,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -1950,7 +2006,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -1974,7 +2030,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -1982,7 +2038,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -1990,7 +2046,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -1998,7 +2054,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2006,7 +2062,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -2014,7 +2070,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -2022,7 +2078,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -2030,7 +2086,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -2038,7 +2094,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -2046,7 +2102,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -2054,7 +2110,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -2062,7 +2118,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -2091,7 +2147,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -2099,7 +2155,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -2123,7 +2179,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -2131,7 +2187,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2139,7 +2195,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -2147,7 +2203,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2155,7 +2211,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -2163,7 +2219,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -2171,7 +2227,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -2179,7 +2235,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -2187,7 +2243,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -2195,7 +2251,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -2203,7 +2259,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -2211,7 +2267,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -2240,7 +2296,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -2248,7 +2304,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -2272,7 +2328,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -2280,7 +2336,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2288,7 +2344,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -2296,7 +2352,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2304,7 +2360,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -2312,7 +2368,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -2320,7 +2376,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -2328,7 +2384,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -2336,7 +2392,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -2344,7 +2400,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -2352,7 +2408,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -2360,7 +2416,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -2373,7 +2429,7 @@
           "disposition": "HOSTILE",
           "items": [
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -2381,7 +2437,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -2389,7 +2445,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -2397,7 +2453,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -2405,6 +2461,10 @@
               "color": "#ff6432"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
@@ -2415,7 +2475,8 @@
           "OWNED",
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
       }
@@ -2426,7 +2487,7 @@
           "disposition": "OWNED",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -2434,7 +2495,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -2442,7 +2503,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -2450,7 +2511,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -2458,7 +2519,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -2466,7 +2527,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -2474,7 +2535,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -2487,7 +2548,7 @@
           "disposition": "FRIENDLY",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -2495,7 +2556,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -2503,7 +2564,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -2511,7 +2572,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -2519,7 +2580,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -2527,7 +2588,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -2535,7 +2596,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -2548,7 +2609,7 @@
           "disposition": "NEUTRAL",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -2556,7 +2617,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -2564,7 +2625,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -2572,7 +2633,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -2580,7 +2641,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -2588,7 +2649,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -2596,7 +2657,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -2625,7 +2686,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -2657,7 +2718,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -2665,6 +2726,10 @@
               "color": "#ff6432"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
@@ -2675,7 +2740,8 @@
           "OWNED",
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
       }
@@ -2686,7 +2752,7 @@
           "disposition": "OWNED",
           "items": [
             {
-              "value": "return data.mm._classes[0].Name;",
+              "value": "return data.system.class.name;",
               "icon": "cci cci-npc-class",
               "isFunction": true,
               "expression": false,
@@ -2694,7 +2760,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2702,7 +2768,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2710,7 +2776,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -2718,7 +2784,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -2726,7 +2792,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2734,7 +2800,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 2 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2742,7 +2808,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn data.mm._templates[2].Name;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name;\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2750,7 +2816,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn \"\";\n} else if (data.stress.max > 1 || data.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn \"\";\n} else if (data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2758,7 +2824,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2766,7 +2832,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -2774,7 +2840,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -2782,7 +2848,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2790,7 +2856,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2798,7 +2864,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -2806,7 +2872,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -2814,7 +2880,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -2822,7 +2888,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -2830,7 +2896,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -2838,7 +2904,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -2846,7 +2912,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -2854,7 +2920,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -2867,7 +2933,7 @@
           "disposition": "FRIENDLY",
           "items": [
             {
-              "value": "return data.mm._classes[0].Name;",
+              "value": "return data.system.class.name;",
               "icon": "cci cci-npc-class",
               "isFunction": true,
               "expression": false,
@@ -2875,7 +2941,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2883,7 +2949,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2891,7 +2957,7 @@
               "color": "#000000"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -2899,7 +2965,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -2907,7 +2973,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2915,7 +2981,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 2 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2923,7 +2989,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn data.mm._templates[2].Name;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name;\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2931,7 +2997,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn \"\";\n} else if (data.stress.max > 1 || data.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn \"\";\n} else if (data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -2939,7 +3005,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2947,7 +3013,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -2955,7 +3021,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -2963,7 +3029,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2971,7 +3037,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -2979,7 +3045,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -2987,7 +3053,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -2995,7 +3061,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -3003,7 +3069,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -3011,7 +3077,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -3019,7 +3085,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -3027,7 +3093,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -3035,7 +3101,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -3048,7 +3114,7 @@
           "disposition": "NEUTRAL",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -3056,7 +3122,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -3064,7 +3130,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "return data.mm._classes[0].Name;",
+              "value": "return data.system.class.name;",
               "icon": "cci cci-npc-class",
               "isFunction": true,
               "expression": false,
@@ -3072,7 +3138,7 @@
               "color": "#ff0000"
             },
             {
-              "value": "if (data.mm._templates.length >= 1) {\n\treturn data.mm._templates[0].Name;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name;\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -3080,7 +3146,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3088,7 +3154,7 @@
               "color": "#1d0f25"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -3096,7 +3162,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3104,7 +3170,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -3112,7 +3178,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3120,7 +3186,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 2) {\n\treturn data.mm._templates[1].Name;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name;\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -3128,7 +3194,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 2) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3136,7 +3202,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn data.mm._templates[2].Name;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name;\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -3144,7 +3210,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3152,7 +3218,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -3160,7 +3226,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -3168,7 +3234,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -3176,7 +3242,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -3184,7 +3250,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -3192,7 +3258,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -3200,7 +3266,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -3208,7 +3274,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -3221,7 +3287,7 @@
           "disposition": "HOSTILE",
           "items": [
             {
-              "value": "return data.mm._classes[0].Name;",
+              "value": "return data.system.class.name;",
               "icon": "cci cci-npc-class",
               "isFunction": true,
               "expression": false,
@@ -3229,7 +3295,7 @@
               "color": "#ff0000"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -3237,7 +3303,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn \"\";\n\t} else {\n\t\treturn \" \";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -3261,7 +3327,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1 || data.stress.max > 1) {\n\tif (data.mm._templates.length >= 1) {\n\t\treturn data.mm._templates[0].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.mm._templates.length >= 2) {\n\t\treturn data.mm._templates[1].Name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
+              "value": "if (data.system.structure.max > 1 || data.system.stress.max > 1) {\n\tif (data.itemTypes.npc_template.length >= 1) {\n\t\treturn data.itemTypes.npc_template[0].name;\n\t} else {\n\t\treturn \"\";\n\t}\n} else {\n\tif (data.itemTypes.npc_template.length >= 2) {\n\t\treturn data.itemTypes.npc_template[1].name;\n\t} else {\n\t\treturn \"\";\n\t}\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -3269,7 +3335,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 2 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 2 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3277,7 +3343,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn data.mm._templates[2].Name;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name;\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -3285,7 +3351,7 @@
               "color": "#ffc800"
             },
             {
-              "value": "if (data.mm._templates.length >= 3) {\n\treturn \"\";\n} else if (data.stress.max > 1 || data.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn \"\";\n} else if (data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \" \";\n} else {\n\treturn \"\";\n}",
               "icon": "cci cci-npc-template",
               "isFunction": true,
               "expression": false,
@@ -3293,7 +3359,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm._templates.length >= 3 || data.stress.max > 1 || data.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
+              "value": "if (data.itemTypes.npc_template.length >= 3 || data.system.stress.max > 1 || data.system.structure.max > 1) {\n\treturn \"\";\n} else {\n\treturn \" \";\n}",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3301,7 +3367,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -3309,7 +3375,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -3317,7 +3383,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3325,7 +3391,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3357,7 +3423,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -3389,7 +3455,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -3397,17 +3463,22 @@
               "color": "#ff6432"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
-        "displayNameInTooltip": "HOSTILE",
+        "displayNameInTooltip": "NEUTRAL",
         "useAccentEverywhere": false,
         "accentColor": "#b31414",
         "tokenDispositions": [
           "OWNED",
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
       }
@@ -3418,7 +3489,7 @@
           "disposition": "OWNED",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -3426,7 +3497,7 @@
               "color": "#70ff2e"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -3434,7 +3505,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "if (data.overshield.value > 0) {\n\treturn data.overshield.value;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.overshield.value > 0) {\n\treturn data.system.overshield.value;\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": true,
               "expression": false,
@@ -3442,7 +3513,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "if (data.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3450,7 +3521,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm.Burn > 0) {\n\treturn data.mm.Burn;\n}\nreturn \"\";",
+              "value": "if (data.system.burn > 0) {\n\treturn data.system.burn;\n}\nreturn \"\";",
               "icon": "cci cci-burn",
               "isFunction": true,
               "expression": false,
@@ -3458,7 +3529,7 @@
               "color": "#ff6432"
             },
             {
-              "value": "if (data.mm.Burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3466,7 +3537,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -3474,7 +3545,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -3487,7 +3558,7 @@
           "disposition": "FRIENDLY",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -3495,7 +3566,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -3503,7 +3574,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "if (data.overshield.value > 0) {\n\treturn data.overshield.value;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.overshield.value > 0) {\n\treturn data.system.overshield.value;\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": true,
               "expression": false,
@@ -3511,7 +3582,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "if (data.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3519,7 +3590,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm.Burn > 0) {\n\treturn data.mm.Burn;\n}\nreturn \"\";",
+              "value": "if (data.system.burn > 0) {\n\treturn data.system.burn;\n}\nreturn \"\";",
               "icon": "cci cci-burn",
               "isFunction": true,
               "expression": false,
@@ -3527,7 +3598,7 @@
               "color": "#ff6432"
             },
             {
-              "value": "if (data.mm.Burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3535,7 +3606,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -3543,7 +3614,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -3556,7 +3627,7 @@
           "disposition": "NEUTRAL",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -3564,7 +3635,7 @@
               "color": "#bfbfbf"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -3572,7 +3643,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "if (data.overshield.value > 0) {\n\treturn data.overshield.value;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.overshield.value > 0) {\n\treturn data.system.overshield.value;\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": true,
               "expression": false,
@@ -3580,7 +3651,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "if (data.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3588,7 +3659,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm.Burn > 0) {\n\treturn data.mm.Burn;\n}\nreturn \"\";",
+              "value": "if (data.system.burn > 0) {\n\treturn data.system.burn;\n}\nreturn \"\";",
               "icon": "cci cci-burn",
               "isFunction": true,
               "expression": false,
@@ -3596,7 +3667,7 @@
               "color": "#ff6432"
             },
             {
-              "value": "if (data.mm.Burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3604,7 +3675,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -3612,7 +3683,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -3641,7 +3712,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "if (data.overshield.value > 0) {\n\treturn data.overshield.value;\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.overshield.value > 0) {\n\treturn data.system.overshield.value;\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": true,
               "expression": false,
@@ -3649,7 +3720,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "if (data.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.overshield.value == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3657,7 +3728,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.mm.Burn > 0) {\n\treturn data.mm.Burn;\n}\nreturn \"\";",
+              "value": "if (data.system.burn > 0) {\n\treturn data.system.burn;\n}\nreturn \"\";",
               "icon": "cci cci-burn",
               "isFunction": true,
               "expression": false,
@@ -3665,7 +3736,7 @@
               "color": "#ff6432"
             },
             {
-              "value": "if (data.mm.Burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
+              "value": "if (data.system.burn == 0) {\n\treturn \" \";\n}\nreturn \"\";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3689,6 +3760,10 @@
               "color": "#29e08b"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
@@ -3699,7 +3774,8 @@
           "OWNED",
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
       }
@@ -3710,7 +3786,7 @@
           "disposition": "OWNED",
           "items": [
             {
-              "value": "return data.mm.Loadout.Frame.Name || \" \";",
+              "value": "return data.system.loadout.frame.value.name || \" \";",
               "icon": "cci cci-frame",
               "isFunction": true,
               "expression": false,
@@ -3718,7 +3794,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "return data.mm.Pilot.Callsign || \" \";",
+              "value": "return data.system.pilot.value.system.callsign || \" \";",
               "icon": "cci cci-pilot",
               "isFunction": true,
               "expression": false,
@@ -3726,7 +3802,7 @@
               "color": "#ffb400"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -3734,7 +3810,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -3742,7 +3818,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.mm.CurrentCoreEnergy) {\n\treturn \"\";\n} else {\n\treturn \"CORE\";\n}",
+              "value": "if (data.system.core_energy) {\n\treturn \"\";\n} else {\n\treturn \"CORE\";\n}",
               "icon": "mdi mdi-battery-10",
               "isFunction": true,
               "expression": false,
@@ -3750,7 +3826,7 @@
               "color": "#999999"
             },
             {
-              "value": "if (data.mm.CurrentCoreEnergy) {\n\treturn \"CORE\";\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.core_energy) {\n\treturn \"CORE\";\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-battery",
               "isFunction": true,
               "expression": false,
@@ -3766,7 +3842,7 @@
               "color": "#c60101"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -3774,7 +3850,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3782,7 +3858,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -3790,7 +3866,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3798,7 +3874,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -3806,7 +3882,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -3814,7 +3890,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -3822,7 +3898,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -3830,7 +3906,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -3838,7 +3914,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -3846,7 +3922,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -3854,7 +3930,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -3867,7 +3943,7 @@
           "disposition": "FRIENDLY",
           "items": [
             {
-              "value": "return data.mm.Loadout.Frame.Name || \" \";",
+              "value": "return data.system.loadout.frame.value.name || \" \";",
               "icon": "cci cci-frame",
               "isFunction": true,
               "expression": false,
@@ -3875,7 +3951,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "return data.mm.Pilot.Callsign || \" \";",
+              "value": "return data.system.pilot.value.system.callsign || \" \";",
               "icon": "cci cci-pilot",
               "isFunction": true,
               "expression": false,
@@ -3883,7 +3959,7 @@
               "color": "#ffb400"
             },
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -3891,7 +3967,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -3899,7 +3975,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.mm.CurrentCoreEnergy) {\n\treturn \"\";\n} else {\n\treturn \"CORE\";\n}",
+              "value": "if (data.system.core_energy) {\n\treturn \"\";\n} else {\n\treturn \"CORE\";\n}",
               "icon": "mdi mdi-battery-10",
               "isFunction": true,
               "expression": false,
@@ -3907,7 +3983,7 @@
               "color": "#999999"
             },
             {
-              "value": "if (data.mm.CurrentCoreEnergy) {\n\treturn \"CORE\";\n} else {\n\treturn \"\";\n}",
+              "value": "if (data.system.core_energy) {\n\treturn \"CORE\";\n} else {\n\treturn \"\";\n}",
               "icon": "mdi mdi-battery",
               "isFunction": true,
               "expression": false,
@@ -3923,7 +3999,7 @@
               "color": "#c60101"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -3931,7 +4007,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3939,7 +4015,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -3947,7 +4023,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -3955,7 +4031,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -3963,7 +4039,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -3971,7 +4047,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -3979,7 +4055,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -3987,7 +4063,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -3995,7 +4071,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -4003,7 +4079,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -4011,7 +4087,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -4024,7 +4100,7 @@
           "disposition": "NEUTRAL",
           "items": [
             {
-              "value": "hp",
+              "value": "system.hp",
               "icon": "mdi mdi-heart",
               "isFunction": false,
               "expression": false,
@@ -4032,7 +4108,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "heat",
+              "value": "system.heat",
               "icon": "cci cci-heat",
               "isFunction": false,
               "expression": false,
@@ -4056,7 +4132,7 @@
               "color": "#ffffff"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -4064,7 +4140,7 @@
               "color": "#1f9eff"
             },
             {
-              "value": "if (data.structure.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.structure.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -4072,7 +4148,7 @@
               "color": "#000000"
             },
             {
-              "value": "if (data.stress.max > 1) {\n\tconst current = data.stress.value;\n\tconst damage = data.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.stress.max > 1) {\n\tconst current = data.system.stress.value;\n\tconst damage = data.system.stress.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\n//tooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -4096,7 +4172,7 @@
               "color": "#ffffff"
             },
             {
-              "value": "if (data.stress.max > 1) return \"\";\nreturn \" \";",
+              "value": "if (data.system.stress.max > 1) return \"\";\nreturn \" \";",
               "icon": "",
               "isFunction": true,
               "expression": false,
@@ -4104,7 +4180,7 @@
               "color": "#000000"
             },
             {
-              "value": "mm.Armor",
+              "value": "system.armor",
               "icon": "mdi mdi-shield-half-full",
               "isFunction": false,
               "expression": false,
@@ -4112,7 +4188,7 @@
               "color": "#caccce"
             },
             {
-              "value": "mm.Evasion",
+              "value": "system.evasion",
               "icon": "cci cci-evasion",
               "isFunction": false,
               "expression": false,
@@ -4120,7 +4196,7 @@
               "color": "#9cff38"
             },
             {
-              "value": "mm.SaveTarget",
+              "value": "system.save",
               "icon": "cci cci-save",
               "isFunction": false,
               "expression": false,
@@ -4128,7 +4204,7 @@
               "color": "#bababa"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -4136,7 +4212,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Speed",
+              "value": "system.speed",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
               "isFunction": false,
               "expression": false,
@@ -4144,7 +4220,7 @@
               "color": "#ff1e1e"
             },
             {
-              "value": "mm.EDefense",
+              "value": "system.edef",
               "icon": "cci cci-edef",
               "isFunction": false,
               "expression": false,
@@ -4152,7 +4228,7 @@
               "color": "#29e08b"
             },
             {
-              "value": "mm.SensorRange",
+              "value": "system.sensor_range",
               "icon": "cci cci-sensor",
               "isFunction": false,
               "expression": false,
@@ -4160,7 +4236,7 @@
               "color": "#b8ffb8"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -4173,7 +4249,7 @@
           "disposition": "HOSTILE",
           "items": [
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-structure",
               "isFunction": true,
               "expression": false,
@@ -4181,7 +4257,7 @@
               "color": "#ff3232"
             },
             {
-              "value": "if (data.structure.max > 1) {\n\tconst current = data.structure.value;\n\tconst damage = data.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
+              "value": "if (data.system.structure.max > 1) {\n\tconst current = data.system.structure.value;\n\tconst damage = data.system.structure.max - current;\n\treturn \"▱\".repeat(damage) + \"▰\".repeat(current);\n}\ntooltip._maxRows = 3;\nreturn \"\";",
               "icon": "cci cci-reactor",
               "isFunction": true,
               "expression": false,
@@ -4189,7 +4265,7 @@
               "color": "#ff7b00"
             },
             {
-              "value": "overshield.value",
+              "value": "system.overshield.value",
               "icon": "mdi mdi-shield-star-outline",
               "isFunction": false,
               "expression": false,
@@ -4197,7 +4273,7 @@
               "color": "#9f6bff"
             },
             {
-              "value": "mm.Burn",
+              "value": "system.burn",
               "icon": "cci cci-burn",
               "isFunction": false,
               "expression": false,
@@ -4205,6 +4281,10 @@
               "color": "#ff6432"
             }
           ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
         }
       ],
       "static": {
@@ -4215,9 +4295,46 @@
           "OWNED",
           "FRIENDLY",
           "NEUTRAL",
-          "HOSTILE"
+          "HOSTILE",
+          "SECRET"
         ],
         "useAccentColorForEverything": false
+      }
+    },
+    "base": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#e2b5a9",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ]
       }
     }
   }
