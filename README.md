@@ -10,55 +10,10 @@ In order to use these config options, make sure to open the tooltip manager in t
 
 Following that, there may be extra configuration for each config - the TTA settings are held below.
 
-## Bolts TTA Config
-
-- File: `bolts-tta.json`
-- Actor Data: `actor.system`
-- Max Rows: `4`  
-
-![Bolts TTA Preview](bolts-preview.png)
-
-## Eranziel TTA Config
-
-- File: `eranziel-tta.json`
-- Actor Data: `actor.system`
-- Max Rows: `4`
-- Tooltip Manager:
-  - Custom:
-    - [x] Deployable
-
-![Eranziel TTA Preview](eranziel-preview.png)
-
-## KuroKitten TTA Config
-
-- File: `kurokitten-tta.json`
-- Actor Data: `actor.data.data.derived`
-- Max Rows: `4`
-- Tooltip Manager:
-  - Custom:
-    - [x] Pilot
-    - [x] Mech
-    - [x] NPC
-    - [x] Deployable
-
-![KuroKitten TTA Preview](kurokitten-preview.png)
-
-## Sarah TTA Config
-Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hostile, neutral, and friendly NPCs. Auto-capitalizes class and template names. Does not include config for pilots, player mechs, or deployables.
-- File: `sarah-tta.json`
-- Actor Data: `actor.data.data.derived`
-- Max Rows: `5`
-- Tooltip Manager:
-  - Custom:
-   - [ ] Pilot
-   - [ ] Mech
-   - [x] NPC
-   - [ ] Deployable
-
-![Sarah TTA Preview](sarah-preview.png)
+# Version 11
 
 ## Valkyrion
-### TTA Config
+### [TTA Config](v11\valkyrion-tta.json)
 Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Callsign for friendly mechs.  Allows token name to accommodate longer Mech names instead of just the pilot Callsign.  Works best with token display names never displayed.
 - File: `valkyrion-tta.json`
 - Actor Data: `actor`
@@ -70,4 +25,54 @@ Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Ca
     - [x] NPC
     - [x] Deployable
 
-![Valkyrion TTA Preview](valkyrion-preview.png)
+![Valkyrion TTA Preview](v11/valkyrion-preview.png)
+
+
+# Version 10
+
+## [Bolts TTA Config](v10\bolts-tta.json)
+
+- File: `bolts-tta.json`
+- Actor Data: `actor.system`
+- Max Rows: `4`  
+
+![Bolts TTA Preview](v10/bolts-preview.png)
+
+## [Eranziel TTA Config](v10\eranziel-tta.json)
+
+- File: `eranziel-tta.json`
+- Actor Data: `actor.system`
+- Max Rows: `4`
+- Tooltip Manager:
+  - Custom:
+    - [x] Deployable
+
+![Eranziel TTA Preview](v10/eranziel-preview.png)
+
+## [KuroKitten TTA Config](v10\kurokitten-tta.json)
+
+- File: `kurokitten-tta.json`
+- Actor Data: `actor.data.data.derived`
+- Max Rows: `4`
+- Tooltip Manager:
+  - Custom:
+    - [x] Pilot
+    - [x] Mech
+    - [x] NPC
+    - [x] Deployable
+
+![KuroKitten TTA Preview](v10/kurokitten-preview.png)
+
+## [Sarah TTA Config](v10\sarah-tta.json)
+Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hostile, neutral, and friendly NPCs. Auto-capitalizes class and template names. Does not include config for pilots, player mechs, or deployables.
+- File: `sarah-tta.json`
+- Actor Data: `actor.data.data.derived`
+- Max Rows: `5`
+- Tooltip Manager:
+  - Custom:
+   - [ ] Pilot
+   - [ ] Mech
+   - [x] NPC
+   - [ ] Deployable
+
+![Sarah TTA Preview](v10/sarah-preview.png)
