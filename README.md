@@ -4,9 +4,14 @@ This repo was created to store [Token Tooltip Alt](https://foundryvtt.com/packag
 
 Install from [this fork](https://github.com/msprijatelj/token-tooltip-alt/releases/latest/download/module.zip) for compatibility with Foundry v11.
 
-In order to use these config options, make sure to open the tooltip manager in the module's settings, and then import one of the json files in this repo.
+In order to use these config options, make sure to open the tooltip manager in the module's settings, and then import one of the json files in this repo. 
 
 ![Token Tooltip Alt json Import Example](jsonImport.png)
+
+To download one of these files, refer to the following image.
+
+![Github Download Raw File Example](github-directions.png)
+
 
 Following that, there may be extra configuration for each config - the TTA settings are held below.
 
