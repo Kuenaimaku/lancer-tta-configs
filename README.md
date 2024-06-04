@@ -11,7 +11,7 @@ Following that, there may be extra configuration for each config - the TTA setti
 ## Bolts TTA Config
 
 - File: `bolts-tta.json`
-- Actor Data: `actor.data.data`
+- Actor Data: `actor.system`
 - Max Rows: `4`  
 
 ![Bolts TTA Preview](bolts-preview.png)
