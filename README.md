@@ -13,7 +13,7 @@ Following that, there may be extra configuration for each config - the TTA setti
 # Version 11
 
 ## Valkyrion
-### [TTA Config](v11\valkyrion-tta.json)
+### [TTA Config](v11/valkyrion-tta.json)
 Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Callsign for friendly mechs.  Allows token name to accommodate longer Mech names instead of just the pilot Callsign.  Works best with token display names never displayed.
 - File: `valkyrion-tta.json`
 - Actor Data: `actor`
@@ -30,7 +30,7 @@ Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Ca
 
 # Version 10
 
-## [Bolts TTA Config](v10\bolts-tta.json)
+## [Bolts TTA Config](v10/bolts-tta.json)
 
 - File: `bolts-tta.json`
 - Actor Data: `actor.system`
@@ -38,7 +38,7 @@ Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Ca
 
 ![Bolts TTA Preview](v10/bolts-preview.png)
 
-## [Eranziel TTA Config](v10\eranziel-tta.json)
+## [Eranziel TTA Config](v10/eranziel-tta.json)
 
 - File: `eranziel-tta.json`
 - Actor Data: `actor.system`
@@ -49,7 +49,7 @@ Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Ca
 
 ![Eranziel TTA Preview](v10/eranziel-preview.png)
 
-## [KuroKitten TTA Config](v10\kurokitten-tta.json)
+## [KuroKitten TTA Config](v10/kurokitten-tta.json)
 
 - File: `kurokitten-tta.json`
 - Actor Data: `actor.data.data.derived`
@@ -63,7 +63,7 @@ Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Ca
 
 ![KuroKitten TTA Preview](v10/kurokitten-preview.png)
 
-## [Sarah TTA Config](v10\sarah-tta.json)
+## [Sarah TTA Config](v10/sarah-tta.json)
 Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hostile, neutral, and friendly NPCs. Auto-capitalizes class and template names. Does not include config for pilots, player mechs, or deployables.
 - File: `sarah-tta.json`
 - Actor Data: `actor.data.data.derived`
