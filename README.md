@@ -21,7 +21,7 @@ Following that, there may be extra configuration for each config - the TTA setti
 ### [TTA Config](v11/valkyrion-tta.json)
 Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Callsign for friendly mechs.  Allows token name to accommodate longer Mech names instead of just the pilot Callsign.  Works best with token display names never displayed.
 - File: `valkyrion-tta.json`
-- Actor Data: `actor`
+- Actor Data: `actor.system`
 - Max Rows: `4`
 - Tooltip Manager:
   - Custom:
