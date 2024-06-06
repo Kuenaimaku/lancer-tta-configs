@@ -1,0 +1,789 @@
+{
+  "gmSettings": {
+    "default": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": false,
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "pilot": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": false,
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "npc": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "return data.system.class.name.toUpperCase();",
+              "icon": "cci cci-npc-class",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#4287f5"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 4) {\n\treturn data.itemTypes.npc_template[3].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "return data.system.class.name.toUpperCase();",
+              "icon": "cci cci-npc-class",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#4287f5"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 4) {\n\treturn data.itemTypes.npc_template[3].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "return data.system.class.name.toUpperCase();",
+              "icon": "cci cci-npc-class",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#E72124"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 4) {\n\treturn data.itemTypes.npc_template[3].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            }
+          ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": [
+            {
+              "value": "return data.system.class.name.toUpperCase();",
+              "icon": "cci cci-npc-class",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#4287f5"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 4) {\n\treturn data.itemTypes.npc_template[3].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": false,
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "deployable": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": false,
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "mech": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": false,
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "base": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": false,
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    }
+  },
+  "playerSettings": {
+    "default": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NONE",
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "pilot": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NONE",
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "npc": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": [
+            {
+              "value": "return data.system.class.name.toUpperCase();",
+              "icon": "cci cci-npc-class",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#4287f5"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 4) {\n\treturn data.itemTypes.npc_template[3].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            }
+          ]
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "return data.system.class.name.toUpperCase();",
+              "icon": "cci cci-npc-class",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#4287f5"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 4) {\n\treturn data.itemTypes.npc_template[3].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "return data.system.class.name.toUpperCase();",
+              "icon": "cci cci-npc-class",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#4287f5"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 4) {\n\treturn data.itemTypes.npc_template[3].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "return data.system.class.name.toUpperCase();",
+              "icon": "cci cci-npc-class",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#E72124"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 4) {\n\treturn data.itemTypes.npc_template[3].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            }
+          ]
+        },
+        {
+          "disposition": "SECRET",
+          "items": [
+            {
+              "value": "return data.data.system.class.name.toUpperCase();",
+              "icon": "cci cci-npc-class",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#4287f5"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 1) {\n\treturn data.itemTypes.npc_template[0].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 2) {\n\treturn data.itemTypes.npc_template[1].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 3) {\n\treturn data.itemTypes.npc_template[2].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            },
+            {
+              "value": "if (data.itemTypes.npc_template.length >= 4) {\n\treturn data.itemTypes.npc_template[3].name.toUpperCase();\n} else {\n\treturn \"\";\n}",
+              "icon": "cci cci-npc-template",
+              "isFunction": true,
+              "expression": false,
+              "isNumber": false,
+              "color": "#fcba03"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NONE",
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "deployable": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NONE",
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "mech": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NONE",
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "base": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        },
+        {
+          "disposition": "SECRET",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NONE",
+        "useAccentEverywhere": false,
+        "accentColor": "#E72124",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE",
+          "SECRET"
+        ],
+        "useAccentColorForEverything": false
+      }
+    }
+  }
+}
