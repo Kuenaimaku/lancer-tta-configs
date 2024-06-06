@@ -32,6 +32,19 @@ Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Ca
 
 ![Valkyrion TTA Preview](v11/valkyrion-preview.png)
 
+## [Sarah TTA Config](v11/sarah-tta.json)
+Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hostile, neutral, friendly, and secret NPCs. Auto-capitalizes class and template names. Does not include config for pilots, player mechs, or deployables.
+- File: `sarah-tta.json`
+- Actor Data: `actor`
+- Max Rows: `5`
+- Tooltip Manager:
+  - Custom:
+   - [ ] Pilot
+   - [ ] Mech
+   - [x] NPC
+   - [ ] Deployable
+
+![Sarah TTA Preview](v11/sarah-preview.png)
 
 # Version 10
 
@@ -67,17 +80,3 @@ Variant of KuroKitten's.  Includes Frame type (e.g. `BLACKBEARD`) and Pilot's Ca
     - [x] Deployable
 
 ![KuroKitten TTA Preview](v10/kurokitten-preview.png)
-
-## [Sarah TTA Config](v10/sarah-tta.json)
-Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hostile, neutral, and friendly NPCs. Auto-capitalizes class and template names. Does not include config for pilots, player mechs, or deployables.
-- File: `sarah-tta.json`
-- Actor Data: `actor.data.data.derived`
-- Max Rows: `5`
-- Tooltip Manager:
-  - Custom:
-   - [ ] Pilot
-   - [ ] Mech
-   - [x] NPC
-   - [ ] Deployable
-
-![Sarah TTA Preview](v10/sarah-preview.png)
