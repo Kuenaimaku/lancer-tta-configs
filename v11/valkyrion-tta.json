@@ -2670,18 +2670,18 @@
           "disposition": "HOSTILE",
           "items": [
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.hp : '?';",
               "icon": "mdi mdi-heart",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#ff4646"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.evasion : '?';",
               "icon": "cci cci-evasion",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#9cff38"
             },
@@ -2694,26 +2694,26 @@
               "color": "#9f6bff"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.speed: '?';",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#ff1e1e"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.armor: '?';",
               "icon": "mdi mdi-shield-half-full",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#caccce"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.edef: '?';",
               "icon": "cci cci-edef",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#29e08b"
             },
@@ -3311,18 +3311,18 @@
               "color": "#000000"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.hp : '?';",
               "icon": "mdi mdi-heart",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#ff2828"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.heat : '?';",
               "icon": "cci cci-heat",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#ff7b00"
             },
@@ -3399,26 +3399,26 @@
               "color": "#000000"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.armor : '?';",
               "icon": "mdi mdi-shield-half-full",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#caccce"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.evasion : '?';",
               "icon": "cci cci-evasion",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#9cff38"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.save : '?';",
               "icon": "cci cci-save",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#bababa"
             },
@@ -3431,26 +3431,26 @@
               "color": "#9f6bff"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.speed: '?';",
               "icon": "mdi mdi-arrow-right-bold-hexagon-outline",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#ff1e1e"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.edef: '?';",
               "icon": "cci cci-edef",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#29e08b"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.sensor_range: '?';",
               "icon": "cci cci-sensor",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#b8ffb8"
             },
@@ -3696,18 +3696,18 @@
           "disposition": "HOSTILE",
           "items": [
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.hp : '?';",
               "icon": "mdi mdi-heart",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#ff2828"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.evasion : '?';",
               "icon": "cci cci-evasion",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#9cff38"
             },
@@ -3744,18 +3744,18 @@
               "color": "#000000"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.armor : '?';",
               "icon": "mdi mdi-shield-half-full",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#caccce"
             },
             {
-              "value": "?",
+              "value": "return data.parent.ownership.default >= 2 ? data.edef : '?';",
               "icon": "cci cci-edef",
-              "isFunction": false,
-              "expression": true,
+              "isFunction": true,
+              "expression": false,
               "isNumber": false,
               "color": "#29e08b"
             }
