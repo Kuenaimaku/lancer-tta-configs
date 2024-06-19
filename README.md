@@ -46,15 +46,13 @@ Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hosti
 
 ![Sarah TTA Preview](v11/sarah-preview.png)
 
-# Version 10
-
 ## [Bolts TTA Config](v10/bolts-tta.json)
 
 - File: `bolts-tta.json`
 - Actor Data: `actor.system`
 - Max Rows: `4`  
 
-![Bolts TTA Preview](v10/bolts-preview.png)
+![Bolts TTA Preview](v11/bolts-preview.png)
 
 ## [Eranziel TTA Config](v10/eranziel-tta.json)
 
@@ -65,7 +63,9 @@ Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hosti
   - Custom:
     - [x] Deployable
 
-![Eranziel TTA Preview](v10/eranziel-preview.png)
+![Eranziel TTA Preview](v11/eranziel-preview.png)
+
+# Version 10
 
 ## [KuroKitten TTA Config](v10/kurokitten-tta.json)
 
