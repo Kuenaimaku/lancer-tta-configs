@@ -46,7 +46,7 @@ Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hosti
 
 ![Sarah TTA Preview](v11/sarah-preview.png)
 
-## [Bolts TTA Config](v10/bolts-tta.json)
+## [Bolts TTA Config](v11/bolts-tta.json)
 
 - File: `bolts-tta.json`
 - Actor Data: `actor.system`
