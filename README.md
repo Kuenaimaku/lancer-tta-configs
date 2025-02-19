@@ -15,7 +15,13 @@ To download one of these files, refer to the following image.
 
 Following that, there may be extra configuration for each config - the TTA settings are held below.
 
-# Version 11
+# Version 12
+
+
+<details markdown="1">
+  <summary>
+    <h1>Version 11</h1>
+  </summary>
 
 ## Valkyrion
 ### [TTA Config](v11/valkyrion-tta.json)
@@ -65,7 +71,12 @@ Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hosti
 
 ![Eranziel TTA Preview](v11/eranziel-preview.png)
 
-# Version 10
+</details>
+
+<details markdown="1">
+  <summary>
+    <h1>Version 10</h1>
+  </summary>
 
 ## [KuroKitten TTA Config](v10/kurokitten-tta.json)
 
@@ -80,3 +91,5 @@ Variant of KuroKitten's. Only includes NPC class and up to 4 templates for hosti
     - [x] Deployable
 
 ![KuroKitten TTA Preview](v10/kurokitten-preview.png)
+
+</details>
