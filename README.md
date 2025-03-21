@@ -2,8 +2,6 @@
 
 This repo was created to store [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt) configurations for the [Foundry VTT Lancer System](https://foundryvtt.com/packages/lancer).
 
-Install from [this fork](https://github.com/msprijatelj/token-tooltip-alt/releases/latest/download/module.zip) for compatibility with Foundry v11.
-
 In order to use these config options, make sure to open the tooltip manager in the module's settings, and then import one of the json files in this repo. 
 
 ![Token Tooltip Alt json Import Example](jsonImport.png)
