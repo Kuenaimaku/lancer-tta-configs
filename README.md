@@ -18,7 +18,7 @@ Following that, there may be extra configuration for each config - the TTA setti
 
 <details markdown="1">
   <summary>
-    <h1>Version 11</h1>
+    <h1>Version 11 (Unless specified, these should all work in v12 as well)</h1>
   </summary>
 
 ## Valkyrion
